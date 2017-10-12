@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/gray_bg"
+    android:padding="@dimen/main_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="@dimen/main_padding"
+        android:paddingLeft="@dimen/main_padding"
+        android:paddingRight="@dimen/main_padding"
+        android:text="@string/nearby_devices"
+        android:textSize="24sp"
+        android:textColor="@color/blue_band_dark2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/lv_bt_device"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:scrollbars="none"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="10dp">
+        </ListView>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue_band_dark"
+        android:background="@drawable/stroke_button_bg"
+        android:id="@+id/btn_discovery"
+        android:text="@string/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

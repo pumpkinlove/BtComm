@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_band_dark2</item>
+        <item name="colorPrimaryDark">@color/blue_band_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textColorPrimary">@color/dark</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/blue_band_dark3</item>
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <item name="android:textColorSecondary">@color/white</item><!--改变图标的颜色-->
+    </style>
+
+</resources>
